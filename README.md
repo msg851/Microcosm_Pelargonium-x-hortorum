@@ -6,7 +6,7 @@ Analysis of 16S (bacterial) and ITS (fungal) metabarcoding data from *Pelargoniu
 | Code | Treatment | Description |
 |------|-----------|-------------|
 | GC | Water control | Water only |
-| GN | Fertilizer | Water + nutrient fertilizer |
+| GN | Fertilizer | Water + nutrient fertiliser |
 | GD | Freshwater microalgae | Microalgae biostimulant (freshwater) |
 | GS | Seawater microalgae | Microalgae biostimulant (seawater) |
 
