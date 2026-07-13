@@ -1,4 +1,4 @@
-# Microcosm_Pelargonium-x-hortorum
+# Microcosm_Pelargonium x hortorum
 Analysis of 16S (bacterial) and ITS (fungal) metabarcoding data from *Pelargonium × hortorum var. Silvia* rhizosphere samples under four treatments: water control, fertiliser, freshwater microalgae, and seawater microalgae.
 
 ## Study Design
