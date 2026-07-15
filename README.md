@@ -1,14 +1,14 @@
-# Microcosm_Pelargonium x hortorum
-Analysis of 16S (bacterial) and ITS (fungal) metabarcoding data from *Pelargonium × hortorum var. Silvia* rhizosphere samples under four treatments: water control, fertiliser, freshwater microalgae, and seawater microalgae.
+# Microcosm_*Pelargonium x hortorum* var. Silvia
+Analysis of 16S and ITS metabarcoding data from *Pelargonium × hortorum* var. Silvia rhizosphere samples under four treatments: water control, fertiliser, freshwater microalgae, and seawater microalgae.
 
 ## Study Design
 
 | Code | Treatment | Description |
 |------|-----------|-------------|
 | GC | Water control | Water only |
-| GN | Fertilizer | Water + nutrient fertiliser |
-| GD | Freshwater microalgae | Microalgae biostimulant (freshwater) |
-| GS | Seawater microalgae | Microalgae biostimulant (seawater) |
+| GN | Fertiliser | Water + nutrient fertiliser |
+| GD | Freshwater microalgae | Microalgae (freshwater) |
+| GS | Seawater microalgae | Microalgae (seawater) |
 
 3 biological replicates per treatment (12 samples total per marker).
 
@@ -33,17 +33,13 @@ All input data is included in `data/` (~8.5 MB):
 
 ## Requirements
 
-```
-pip install -r requirements.txt
-```
-
 Dependencies: numpy, pandas, scipy, scikit-bio, matplotlib, seaborn, networkx, python-louvain
 
-No R installation required — all analyses run in pure Python.
+No R installation required — all analyses run in Python.
 
 ## How to Run
 
-1. Install dependencies: `pip install -r requirements.txt`
+1. Install dependencies
 2. Open `analysis.ipynb` in Jupyter Notebook or JupyterLab
 3. Run all cells top to bottom (Sections 1-10)
 4. Outputs are saved to `figures/` (PNG + SVG) and `tables/` (CSV)
